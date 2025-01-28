@@ -1,0 +1,352 @@
+loadstring(game:HttpGet(("https://raw.githubusercontent.com/daucobonhi/Ui-Redz-V2/refs/heads/main/UiREDzV2.lua")))()
+
+       local Window = MakeWindow({
+         Hub = {
+         Title = "BadBoy YêuTrang",
+         Animation = "Yêu Trang lonmup và ngoại tình với Thảo Vy vuto"
+         },
+        Key = {
+        KeySystem = false,
+        Title = "Key System",
+        Description = "",
+        KeyLink = "",
+        Keys = {"1234"},
+        Notifi = {
+        Notifications = true,
+        CorrectKey = "Running the Script...",
+       Incorrectkey = "The key is incorrect",
+       CopyKeyLink = "Copied to Clipboard"
+      }
+    }
+  })
+
+       MinimizeButton({
+       Image = "http://www.roblox.com/asset/?id=114499593038606",
+       Size = {60, 60},
+       Color = Color3.fromRGB(10, 10, 10),
+       Corner = true,
+       Stroke = false,
+       StrokeColor = Color3.fromRGB(255, 0, 0)
+      })
+      
+------ Tab
+     local Tab1o = MakeTab({Name = "MAIN"})
+     local Tab2o = MakeTab({Name = "KAITUN"})
+     local Tab3o = MakeTab({Name = "FIX LAG"})
+     local Tab4o = MakeTab({Name = "Script PC"})
+     
+     
+-------TOGGLE 
+
+     Toggle = AddToggle(Tab1o, {
+      Name = "Quỳnh Trang",
+      Default = false,
+      Callback = function()
+     end
+    })
+    
+------- BUTTON
+    
+    AddButton(Tab1o, {
+     Name = "MARU HUB MOBILE(KEY ADMIN)",
+    Callback = function()
+    	  getgenv().Key = "MARU-EQJ29-3E63-EXLK-Y4D7L-XLJCF"
+getgenv().id = "1254768310965506102"
+loadstring(game:HttpGet("https://raw.githubusercontent.com/xshiba/MaruBitkub/main/Mobile.lua"))()
+  end
+  })
+     AddButton(Tab1o, {
+     Name = "Banana Cat Hub (Key 1-Key Admin)",
+    Callback = function()
+    repeat wait() until game:IsLoaded() and game.Players.LocalPlayer 
+getgenv().Key = "GgeMOFZGoRourSJpYJYIpGAItNFELJMz" 
+loadstring(game:HttpGet("https://raw.githubusercontent.com/obiiyeuem/vthangsitink/main/BananaHub.lua"))()
+  end
+  })   AddButton(Tab1o, {
+     Name = "Banana Cat Hub (Key 2-Key Admin)",
+    Callback = function()
+	  repeat wait() until game:IsLoaded() and game.Players.LocalPlayer 
+getgenv().Key = "xkDdqVzeIMxzzXyVPsjhJWfRIrZmDasp" 
+loadstring(game:HttpGet("https://raw.githubusercontent.com/obiiyeuem/vthangsitink/main/BananaHub.lua"))()
+  end
+  })   AddButton(Tab1o, {
+     Name = "W-azure (Free)",
+    Callback = function()
+	  loadstring(game:HttpGet("https://api.luarmor.net/files/v3/loaders/3b2169cf53bc6104dabe8e19562e5cc2.lua"))()
+  end
+  })   AddButton(Tab1o, {
+     Name = "RedzHub (Free)",
+    Callback = function()
+	  loadstring(game:HttpGet("https://raw.githubusercontent.com/realredz/BloxFruits/refs/heads/main/Source.lua"))()
+  end
+  })   AddButton(Tab1o, {
+     Name = "Speed Hub X (Free)",
+    Callback = function()
+	  loadstring(game:HttpGet("https://raw.githubusercontent.com/AhmadV99/Speed-Hub-X/main/Speed%20Hub%20X.lua", true))()
+  end
+    })   AddButton(Tab1o, {
+     Name = "Zen Hub (Free-GetKey)",
+    Callback = function()
+	  loadstring(game:HttpGet("https://raw.githubusercontent.com/Zenhubtop/zen_hub_pr/main/zennewwwwui.lua", true))()
+  end
+    })   AddButton(Tab1o, {
+     Name = "HOHO HUB (Free-GetKey)",
+    Callback = function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/acsu123/HOHO_H/main/Loading_UI"))()
+  end
+    })   AddButton(Tab1o, {
+     Name = "AnXauTrai Hub (thằng này chim bé hám lồn)",
+    Callback = function()
+	  repeat wait() until game:IsLoaded() and game.Players.LocalPlayer 
+loadstring(game:HttpGet("https://raw.githubusercontent.com/AnDepZaiHub/AnDepZaiHubBeta/refs/heads/main/AnDepZaiHubNewUpdated.lua"))()
+  end
+    })   AddButton(Tab1o, {
+     Name = "Cokka Hub (Free)",
+    Callback = function()
+	  loadstring(game:HttpGet"https://raw.githubusercontent.com/UserDevEthical/Loadstring/main/CokkaHub.lua")() 
+  end
+    })   AddButton(Tab1o, {
+     Name = "Rise Hub (Free)",
+    Callback = function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/TrashLua/BloxFruits/main/FreeScripts.lua"))();
+  end
+      })   AddButton(Tab1o, {
+     Name = "Cuttay Hub (Free)",
+    Callback = function()
+    loadstring(game:HttpGet('https://raw.githubusercontent.com/diemquy/CutTayHub/refs/heads/main/Cuttayhubreal.lua'))()
+  end
+    })   AddButton(Tab1o, {
+     Name = "Rubu hub (Free)",
+    Callback = function()
+	  loadstring(game:HttpGet("https://raw.githubusercontent.com/LuaCrack/RubuRoblox/refs/heads/main/RubuBF"))()
+  end
+    })   AddButton(Tab1o, {
+     Name = "Strix Hub (Free)",
+    Callback = function()
+	  loadstring(game:HttpGet"https://scriptroblox.onrender.com/strix")()
+  end
+    })   AddButton(Tab1o, {
+     Name = "ThunderZ (Free)",
+    Callback = function()
+	  _G.Team = "Marine" -- "Marine" or "Pirate"
+_G.MetodeTeleport = "Instant" --"Instant" or "Tween"
+loadstring(game:HttpGet("https://raw.githubusercontent.com/ThundarZ/Welcome/refs/heads/main/Main/BloxFruit/Chest/AllDevices.lua"))()
+  end
+    })   AddButton(Tab1o, {
+     Name = "Kncrypt Hub (Free-GetKey)",
+    Callback = function()
+	  loadstring(game:HttpGet("https://raw.githubusercontent.com/3345-c-a-t-s-u-s/Kncrypt/refs/heads/main/sources/BloxFruit.lua"))()
+  end
+    })   AddButton(Tab1o, {
+     Name = "Xero Hub(Free)",
+    Callback = function()
+	  getgenv().Team = "Marines"
+getgenv().Hide_Menu = false
+getgenv().Auto_Execute = false
+loadstring(game:HttpGet("https://raw.githubusercontent.com/verudous/Xero-Hub/refs/heads/main/main.lua"))()
+  end
+    })
+     AddButton(Tab1o, {
+     Name = "Farm Chest Skull Hub (Free)",
+    Callback = function()
+    _G.Settings = { ["Enable Farm"] = true, ["SnipeLegendaryItem"] = true, ["Choose Team"] = "Marines", ["White Screen"] = false, ["Reset Anti Detect"] = true } loadstring(game:HttpGet("https://raw.githubusercontent.com/xxhumggxx/SkullHub/refs/heads/main/ChestV2.lua"))()
+  end
+    })
+     AddButton(Tab1o, {
+     Name = "Flow Hub (Free)",
+    Callback = function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/Yumiara/Overflow/refs/heads/main/Main.lua"))()
+  end
+    })
+     AddButton(Tab1o, {
+     Name = "Volcano Hub (Free)",
+    Callback = function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/wpisstestfprg/Volcano/refs/heads/main/VolcanoLocal.lua", true))()
+  end
+    })
+     AddButton(Tab1o, {
+     Name = "Quantum hub (Free)",
+    Callback = function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/FlazhGG/QTONYX/refs/heads/main/NextGeneration.lua"))()
+  end
+    })
+     AddButton(Tab1o, {
+     Name = "Alchemy Hub (Free-GetKey)",
+    Callback = function()
+    loadstring(game:HttpGet("https://scripts.alchemyhub.xyz"))()
+  end
+    })
+     AddButton(Tab1o, {
+     Name = "BlueX Hub (Free)",
+    Callback = function()
+    _G.Team = "Pirates"
+_G.FixLag = true
+loadstring(game:HttpGet("https://raw.githubusercontent.com/Dev-BlueX/BlueX-Hub/refs/heads/main/Main.lua"))()
+  end
+    })
+     AddButton(Tab1o, {
+     Name = "BapRed Hub(Free)",
+    Callback = function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/LuaCrack/BapRed/main/BapRedHub"))()
+  end
+    })
+     AddButton(Tab1o, {
+     Name = "Ronix Hub (Free)",
+    Callback = function()
+    loadstring(game:HttpGet("https://api.luarmor.net/files/v3/loaders/beb83df1db879041fec5e4a1899c4717.lua"))()
+  end
+    })
+     AddButton(Tab2o, {
+     Name = "MARU HUB KAITUN MOBILE (KEY ADMIN)",
+    Callback = function()
+    getgenv().Key = "MARU-EQJ29-3E63-EXLK-Y4D7L-XLJCF"
+getgenv().id = "1254768310965506102"
+getgenv().Script_Mode = "Kaitun_Script"
+loadstring(game:HttpGet("https://raw.githubusercontent.com/xshiba/MaruBitkub/main/Mobile.lua"))()
+  end
+    })
+     AddButton(Tab2o, {
+     Name = "Banana Cat Hub Kaitun Mobile (Key 1-Key Admin)",
+    Callback = function()
+    repeat wait() until game:IsLoaded() and game.Players.LocalPlayer
+getgenv().Key = "GgeMOFZGoRourSJpYJYIpGAItNFELJMz"
+getgenv().SettingFarm ={
+    ["Hide UI"] = false,
+    ["Reset Teleport"] = {
+        ["Enabled"] = false,
+        ["Delay Reset"] = 3,
+        ["Item Dont Reset"] = {
+            ["Fruit"] = {
+                ["Enabled"] = true,
+                ["All Fruit"] = true, 
+                ["Select Fruit"] = {
+                    ["Enabled"] = false,
+                    ["Fruit"] = {},
+                },
+            },
+        },
+    },
+    ["Get Items"] = {
+        ["Godhuman"] =  true,
+        ["Skull Guitar"] = true,
+        ["Mirror Fractal"] = true,
+        ["Cursed Dual Katana"] = true,
+    },
+    ["Select Hop"] = { -- 70% will have it
+        ["Hop Find Rip Indra Get Valkyrie Helm or Get Tushita"] = true, 
+        ["Hop Find Dough King Get Mirror Fractal"] = false,
+        ["Hop Find Raids Castle [CDK]"] = true,
+        ["Hop Find Cake Queen [CDK]"] = true,
+        ["Hop Find Soul Reaper [CDK]"] = true,
+        ["Hop Find Darkbeard [SG]"] = true,
+    },
+    ["Buy Haki"] = {
+        ["Enhancement"] = false,
+        ["Skyjump"] = true,
+        ["Flash Step"] = true,
+        ["Observation"] = true,
+    },
+    ["Lock Fruit"] = {},
+    ["Webhook"] = {
+        ["Enabled"] = false,
+        ["WebhookUrl"] = "",
+    }
+}
+
+
+loadstring(game:HttpGet("https://raw.githubusercontent.com/obiiyeuem/vthangsitink/main/BananaCat-kaitunBF.lua"))()
+  end
+    })
+     AddButton(Tab2o, {
+     Name = "Banana Cat Hub Kaitun Mobile (Key 2-Key Admin)",
+    Callback = function()
+    repeat wait() until game:IsLoaded() and game.Players.LocalPlayer
+getgenv().Key = "xkDdqVzeIMxzzXyVPsjhJWfRIrZmDasp"
+getgenv().SettingFarm ={
+    ["Hide UI"] = false,
+    ["Reset Teleport"] = {
+        ["Enabled"] = false,
+        ["Delay Reset"] = 3,
+        ["Item Dont Reset"] = {
+            ["Fruit"] = {
+                ["Enabled"] = true,
+                ["All Fruit"] = true, 
+                ["Select Fruit"] = {
+                    ["Enabled"] = false,
+                    ["Fruit"] = {},
+                },
+            },
+        },
+    },
+    ["Get Items"] = {
+        ["Godhuman"] =  true,
+        ["Skull Guitar"] = true,
+        ["Mirror Fractal"] = true,
+        ["Cursed Dual Katana"] = true,
+    },
+    ["Select Hop"] = { -- 70% will have it
+        ["Hop Find Rip Indra Get Valkyrie Helm or Get Tushita"] = true, 
+        ["Hop Find Dough King Get Mirror Fractal"] = false,
+        ["Hop Find Raids Castle [CDK]"] = true,
+        ["Hop Find Cake Queen [CDK]"] = true,
+        ["Hop Find Soul Reaper [CDK]"] = true,
+        ["Hop Find Darkbeard [SG]"] = true,
+    },
+    ["Buy Haki"] = {
+        ["Enhancement"] = false,
+        ["Skyjump"] = true,
+        ["Flash Step"] = true,
+        ["Observation"] = true,
+    },
+    ["Lock Fruit"] = {},
+    ["Webhook"] = {
+        ["Enabled"] = false,
+        ["WebhookUrl"] = "",
+    }
+}
+
+
+loadstring(game:HttpGet("https://raw.githubusercontent.com/obiiyeuem/vthangsitink/main/BananaCat-kaitunBF.lua"))()
+  end
+  })
+     AddButton(Tab3o, {
+     Name = "Turbo Lite Hub Premium",
+    Callback = function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/TurboLite/Script/main/FixLag.lua"))()
+  end
+    })
+     AddButton(Tab3o, {
+     Name = "Văn Thành IOS (Fix Lag Cilent IOS)",
+    Callback = function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/VanThanhIOS/FixLagAlexSibikidi/refs/heads/main/AntilagNokeyVip.lua.txt"))()
+  end
+    })
+     AddButton(Tab4o, {
+     Name = "Mukuro hub PC",
+    Callback = function()
+    loadstring(game:HttpGet("https://auth.quartyz.com/scripts/Loader.lua"))()
+  end
+    })
+     AddButton(Tab4o, {
+     Name = "TNG Hub PC",
+    Callback = function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/tngaming123/TNGHub/main/ForPC.lua"))()
+  end
+  })
+----- Dropdown 
+
+  Dropdown = AddDropdown(Tab1o, {
+     Name = "lol",
+     Options = {"Yêu Trang lonmup và ngoại tình với Thảo Vy vuto"},
+     Default = "Melee",
+     Callback = function()
+     end
+   })
+
+----- Section 
+   
+   Section = AddSection(Tab1o, {"Em hứa mà em không hút thuốc nữa đâu"})          
+
+----- Paragraph 
+                    
+   Paragraph = AddParagraph(Farm, {"a", ""})
