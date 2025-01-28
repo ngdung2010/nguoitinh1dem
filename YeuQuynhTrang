@@ -121,12 +121,7 @@ loadstring(game:HttpGet("https://raw.githubusercontent.com/AnDepZaiHub/AnDepZaiH
 	  loadstring(game:HttpGet("https://raw.githubusercontent.com/LuaCrack/RubuRoblox/refs/heads/main/RubuBF"))()
   end
     })   AddButton(Tab1o, {
-     Name = "Strix Hub (Free)",
-    Callback = function()
-	  loadstring(game:HttpGet"https://scriptroblox.onrender.com/strix")()
-  end
-    })   AddButton(Tab1o, {
-     Name = "ThunderZ (Free)",
+     Name = "ThunderZ (Free-GetKey)",
     Callback = function()
 	  _G.Team = "Marine" -- "Marine" or "Pirate"
 _G.MetodeTeleport = "Instant" --"Instant" or "Tween"
@@ -153,7 +148,7 @@ loadstring(game:HttpGet("https://raw.githubusercontent.com/verudous/Xero-Hub/ref
   end
     })
      AddButton(Tab1o, {
-     Name = "Flow Hub (Free)",
+     Name = "Flow Hub (Free-GetKey)",
     Callback = function()
     loadstring(game:HttpGet("https://raw.githubusercontent.com/Yumiara/Overflow/refs/heads/main/Main.lua"))()
   end
